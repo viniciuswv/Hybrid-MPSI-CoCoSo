@@ -1,5 +1,5 @@
 # Hybrid-MPSI-CoCoSo
-Modelo híbrido de análise multicritério composto em duas etapas (MPSI e CoCoSo).
+Modelo híbrido de análise multicritério (MCDA).
 
 ## Descrição
 Este projeto implementa um novo framework de decisão multicritério híbrido baseando-se nos métodos **MPSI** e **CoCoSo**. O objetivo é calcular automaticamente os pesos dos critérios similar ao cálculos de pesos do **MPSI** e, em seguida, utilizar esses pesos para ordenar as alternativas de maneira similar ao desenvolvido no método **CoCoSo**.
