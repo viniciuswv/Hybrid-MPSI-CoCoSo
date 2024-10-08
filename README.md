@@ -3,6 +3,7 @@ Modelo híbrido de análise multicritério composto em duas etapas (MPSI e CoCoS
 
 ## Descrição
 Este projeto implementa um framework de decisão multicritério híbrido utilizando os métodos **MPSI** e **CoCoSo**. O objetivo é calcular automaticamente os pesos dos critérios usando o **MPSI** e, em seguida, utilizar esses pesos para ordenar as alternativas usando o **CoCoSo**.
+O maior benefício deste framework é eliminar a subjetividade associada à atribuição de pesos manuais e fornecer uma análise baseada exclusivamente em dados. Além disso, em um único código disponível online, o acesso é facilitado e todos os cálculos são realizados de uma única vez.
 
 ### Métodos Utilizados
 - **MPSI (Multi-Criteria Preference Selection Index)**: Desenvolvido por **Gligorić et al. (2022)**, determina os pesos dos critérios com base na variância de preferência.
