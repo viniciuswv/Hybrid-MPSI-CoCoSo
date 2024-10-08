@@ -43,15 +43,15 @@ O maior benefício deste framework é eliminar a subjetividade associada à atri
 ## Exemplo de Uso
 Considere um arquivo Excel com a seguinte matriz de decisão:
 
-| Alternativas | Custo | Qualidade | Tempo de Entrega |
-|--------------|-------|-----------|-----------------|
-| Fornecedor A | 8     | 7         | 5               |
-| Fornecedor B | 5     | 8         | 7               |
-| Fornecedor C | 7     | 6         | 6               |
+| Alternativas | Custo   | Qualidade | Tempo de Resposta | Reputação  |
+|--------------|---------|-----------|-------------------|------------|
+| Fornecedor A | 1.5     | 4         | 10                | 5          |
+| Fornecedor B | 2       | 5         | 15                | 4          |
+| Fornecedor C | 1.2     | 3         | 8                 | 3          |
 
 1. **Upload**: Faça o upload do arquivo Excel.
 2. **Definir Critérios**: `min, max, min`.
-3. **Valor de \( \lambda \)**: Defina como `0.5`.
+3. **Valor de \( \lambda \)**: Defina, por exemplo, `0.5`.
 4. **Ordem de Visualização**: Escolha `crescente` ou `decrescente`.
 5. **Resultados**: A lista será gerada conforme a escolha de visualização.
 
