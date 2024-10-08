@@ -50,7 +50,7 @@ Considere um arquivo Excel com a seguinte matriz de decisão:
 | Fornecedor C | 1.2     | 3         | 8                 | 3          |
 
 1. **Upload**: Faça o upload do arquivo Excel.
-2. **Definir Critérios**: `min, max, min`.
+2. **Definir Critérios**: `min, max, min, max`.
 3. **Valor de \( \lambda \)**: Defina, por exemplo, `0.5`.
 4. **Ordem de Visualização**: Escolha `crescente` ou `decrescente`.
 5. **Resultados**: A lista será gerada conforme a escolha de visualização.
