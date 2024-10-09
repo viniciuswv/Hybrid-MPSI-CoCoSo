@@ -107,7 +107,7 @@ $$
    - Ao ser solicitado, informe se cada critério é de **maximização** ou **minimização**.
    - Exemplo: `max, min, max, ...`.
 
-3. **Definir o Valor de \( \lambda \)**:
+3. **Definir o Valor de $\lambda$**:
    - Ao ser solicitado, digite um valor entre `0.1` e `1` para controlar o balanceamento das estratégias de agregação no CoCoSo.
 
 4. **Cálculo e Ranqueamento**:
@@ -130,7 +130,7 @@ Considere um arquivo Excel com a seguinte matriz de decisão:
 
 1. **Upload**: Faça o upload do arquivo Excel.
 2. **Definir Critérios**: `min, max, min, max`.
-3. **Valor de (\lambda \)**: Defina, por exemplo, `0.5`.
+3. **Valor de $\lambda$**: Defina, por exemplo, `0.5`.
 4. **Ordem de Visualização**: Escolha `crescente` ou `decrescente`.
 5. **Resultados**: A lista será gerada conforme a escolha de visualização.
 
