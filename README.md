@@ -6,64 +6,64 @@ Este projeto implementa um novo framework de decisão multicritério híbrido ba
 O maior benefício deste framework é eliminar a subjetividade associada à atribuição de pesos manuais e fornecer uma análise baseada exclusivamente em dados. Além disso, em um único código disponível online, o acesso é facilitado e todos os cálculos são realizados de uma única vez.
 
 ### Métodos Utilizados como Referência para o Modelo:
-### 1. Matriz Normalizada:
-#### Para critérios de maximização:
+#### 1. Matriz Normalizada:
+Para critérios de maximização:
 $$
 r_{ij} = \frac{x_{ij}}{\max(x_{ij})}
 $$
-#### Para critérios de minimização:
+Para critérios de minimização:
 $$
 r_{ij} = \frac{\min(x_{ij})}{x_{ij}}
 $$
-### Média dos Critérios Normalizados:
+#### 2. Média dos Critérios Normalizados:
 $$
 v_j = \frac{1}{m} \sum_{i=1}^{m} r_{ij}
 $$
-### 3. Variância de Preferência:
+#### 3. Variância de Preferência:
 $$
 p_j = \sum_{i=1}^{m} (r_{ij} - v_j)^2
 $$
-### 4. Cálculo dos Pesos:
+#### 4. Cálculo dos Pesos:
 $$
 w_j = \frac{p_j}{\sum_{j=1}^{n} p_j}
 $$
 
-2. Ordenação das Alternativas com CoCoSo
+### 2. Ordenação das Alternativas com CoCoSo
 
 O método CoCoSo utiliza os pesos calculados pelo MPSI para ranquear as alternativas.
 
-	1.	Matriz Normalizada:
-	•	Para critérios de maximização:
+#### 1. Matriz Normalizada:
+Para critérios de maximização:
 $$
 r_{ij} = \frac{x_{ij} - \min(x_{ij})}{\max(x_{ij}) - \min(x_{ij})}
 $$
-	•	Para critérios de minimização:
+Para critérios de minimização:
 $$
 r_{ij} = \frac{\max(x_{ij}) - x_{ij}}{\max(x_{ij}) - \min(x_{ij})}
 $$
-	2.	Cálculo das Sequências Ponderadas:
-	•	Sequência ponderada somatória ($ S_i $):
+#### 2.	Cálculo das Sequências Ponderadas:
+Sequência ponderada somatória ($ S_i $):
 $$
 S_i = \sum_{j=1}^{n} w_j \cdot r_{ij}
 $$
-	•	Sequência ponderada multiplicativa ($ P_i $):
+Sequência ponderada multiplicativa ($ P_i $):
 $$
 P_i = \prod_{j=1}^{n} r_{ij}^{w_j}
 $$
-	3.	Estratégias de Agregação:
-	•	Primeira estratégia ($ k_{ia} $):
+#### 3. Estratégias de Agregação:
+Primeira estratégia ($ k_{ia} $):
 $$
 k_{ia} = \frac{P_i + S_i}{\sum_{i=1}^{m} (P_i + S_i)}
 $$
-	•	Segunda estratégia ($ k_{ib} $):
+Segunda estratégia ($ k_{ib} $):
 $$
 k_{ib} = \frac{S_i}{\min(S_i)} + \frac{P_i}{\min(P_i)}
 $$
-	•	Terceira estratégia ($ k_{ic} $):
+Terceira estratégia ($ k_{ic} $):
 $$
 k_{ic} = \frac{\lambda \cdot S_i + (1 - \lambda) \cdot P_i}{\lambda \cdot \max(S_i) + (1 - \lambda) \cdot \max(P_i)}
 $$
-	4.	Valor Agregado Final ($ K_i $):
+#### 4. Valor Agregado Final ($ K_i $):
 $$
 K_i = \left( k_{ia} \cdot k_{ib} \cdot k_{ic} \right)^{\frac{1}{3}} + \frac{1}{3} \left( k_{ia} + k_{ib} + k_{ic} \right)
 $$
