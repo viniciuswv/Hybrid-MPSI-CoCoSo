@@ -130,7 +130,7 @@ Considere um arquivo Excel com a seguinte matriz de decisão:
 
 1. **Upload**: Faça o upload do arquivo Excel.
 2. **Definir Critérios**: `min, max, min, max`.
-3. **Valor de \( \lambda \)**: Defina, por exemplo, `0.5`.
+3. **Valor de (\lambda \)**: Defina, por exemplo, `0.5`.
 4. **Ordem de Visualização**: Escolha `crescente` ou `decrescente`.
 5. **Resultados**: A lista será gerada conforme a escolha de visualização.
 
@@ -141,6 +141,7 @@ Considere um arquivo Excel com a seguinte matriz de decisão:
 
 ## Referências
 Gligorić, M., Gligorić, Z., Lutovac, S., Negovanović, M., & Langović, Z. (2022). **Novel Hybrid MPSI–MARA Decision-Making Model for Support System Selection in an Underground Mine**. Systems, 10(6), Artigo 6. https://doi.org/10.3390/systems10060248
+
 Yazdani, M., Zarate, P., Kazimieras Zavadskas, E., & Turskis, Z. (2018). **A combined compromise solution (CoCoSo) method for multi-criteria decision-making problems**. Management Decision, 57(9), 2501–2519. https://doi.org/10.1108/MD-05-2017-0458
 
 ---
