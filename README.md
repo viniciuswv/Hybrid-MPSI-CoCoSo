@@ -31,7 +31,7 @@ $$
 w_j = \frac{p_j}{\sum_{j=1}^{n} p_j}
 $$
 
-### 2. Procedimento de Cálculo para Ordenação das Alternativas (2º estágio)
+### Procedimento de Cálculo para Ordenação das Alternativas (2º estágio)
 #### 1. Matriz Normalizada:
 
 Para critérios de maximização:
