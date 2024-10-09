@@ -108,13 +108,13 @@ $$
    - Exemplo: `max, min, max, ...`.
 
 3. **Definir o Valor de \( \lambda \)**:
-   - Ao ser solicitado, digite um valor entre 0.1 e 1 para controlar o balanceamento das estratégias de agregação no CoCoSo.
+   - Ao ser solicitado, digite um valor entre `0.1` e `1` para controlar o balanceamento das estratégias de agregação no CoCoSo.
 
 4. **Cálculo e Ranqueamento**:
-   - O algoritmo usa o MPSI para calcular os pesos e, em seguida, aplica o CoCoSo para ordenar as alternativas.
+   - O programa automaticamente calcula os pesos e, em seguida, ordena as alternativas.
 
 5. **Visualização dos Resultados**:
-   - Ao ser solicitado, escolha se deseja visualizar as alternativas em ordem **crescente** (1º, 2º, 3º, ...) ou **decrescente** (..., 3º, 2º, 1º).
+   - Ao ser solicitado, escolha se deseja visualizar as alternativas em ordem `crescente` (1º, 2º, 3º, ...) ou `decrescente` (..., 3º, 2º, 1º).
 
 6. **Resultados**:
    - O programa exibe os pesos calculados para cada critério e a lista das alternativas com o valor agregado \( K_i \).
