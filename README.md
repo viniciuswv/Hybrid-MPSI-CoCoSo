@@ -7,23 +7,23 @@ O maior benefício deste framework é eliminar a subjetividade associada à atri
 
 ### Métodos Utilizados como Referência para o Modelo:
 ### 1. Matriz Normalizada:
-	•	Para critérios de maximização:
+#### Para critérios de maximização:
 $$
 r_{ij} = \frac{x_{ij}}{\max(x_{ij})}
 $$
-	•	Para critérios de minimização:
+#### Para critérios de minimização:
 $$
 r_{ij} = \frac{\min(x_{ij})}{x_{ij}}
 $$
-	2.	Média dos Critérios Normalizados:
+### Média dos Critérios Normalizados:
 $$
 v_j = \frac{1}{m} \sum_{i=1}^{m} r_{ij}
 $$
-	3.	Variância de Preferência:
+### 3. Variância de Preferência:
 $$
 p_j = \sum_{i=1}^{m} (r_{ij} - v_j)^2
 $$
-	4.	Cálculo dos Pesos:
+### 4. Cálculo dos Pesos:
 $$
 w_j = \frac{p_j}{\sum_{j=1}^{n} p_j}
 $$
