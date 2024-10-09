@@ -2,8 +2,8 @@
 Modelo híbrido de análise multicritério (MCDA) em dois estágios.
 
 ## Descrição
-Este projeto implementa um novo framework de decisão multicritério híbrido baseando-se nos métodos **MPSI** e **CoCoSo**. O objetivo é calcular automaticamente os pesos dos critérios similar ao cálculos de pesos do **MPSI** e, em seguida, utilizar esses pesos para ordenar as alternativas de maneira similar ao desenvolvido no método **CoCoSo**.
-O maior benefício deste framework é eliminar a subjetividade associada à atribuição de pesos manuais e fornecer uma análise baseada exclusivamente em dados. Além disso, em um único código disponível online, o acesso é facilitado e todos os cálculos são realizados de uma única vez.
+Este projeto implementa um novo framework híbrido de decisão multicritério, baseando-se nos métodos **MPSI (Gligoric et al., 2022)** e **CoCoSo (Yazdani et al., 2018)**. O objetivo é calcular, automaticamente, os pesos de cada critério de maneira similar ao apresentado no método **MPSI** e, em seguida, utilizar esses pesos para ordenar as alternativas de maneira similar ao desenvolvido no método **CoCoSo**.
+O maior benefício deste framework é eliminar a subjetividade associada à atribuição manual de pesos (ou facilitar, no caso da ausência de especialistas) e fornecer uma análise baseada exclusivamente em dados. Além disso, em um único código disponível online, o acesso é facilitado e todos os cálculos são realizados de uma única vez.
 
 ### Procedimento de Cálculo para Estabelecimento dos Pesos (1º estágio)
 #### 1. Matriz Normalizada:
@@ -135,72 +135,8 @@ Considere um arquivo Excel com a seguinte matriz de decisão:
 - Gerar relatórios automáticos com a memória de cálculo em PDF.
 - Adicionar gráficos e análises de sensibilidade.
 
-1. Cálculo dos Pesos com MPSI
-
-O método MPSI é utilizado para calcular automaticamente os pesos dos critérios com base na variância de preferência. Os cálculos são realizados da seguinte forma:
-
-	1.	Matriz Normalizada:
-	•	Para critérios de maximização:
-
-r_{ij} = \frac{x_{ij}}{\max(x_{ij})}
-
-	•	Para critérios de minimização:
-
-r_{ij} = \frac{\min(x_{ij})}{x_{ij}}
-
-	2.	Média dos Critérios Normalizados:
-
-v_j = \frac{1}{m} \sum_{i=1}^{m} r_{ij}
-
-	3.	Variância de Preferência:
-
-p_j = \sum_{i=1}^{m} (r_{ij} - v_j)^2
-
-	4.	Cálculo dos Pesos:
-
-w_j = \frac{p_j}{\sum_{j=1}^{n} p_j}
-
-
-2. Ordenação das Alternativas com CoCoSo
-
-O método CoCoSo utiliza os pesos calculados no MPSI para calcular os valores de  K_i  e ordenar as alternativas com base em diferentes estratégias de agregação.
-
-	1.	Matriz Normalizada (CoCoSo):
-	•	Para critérios de maximização:
-
-r_{ij} = \frac{x_{ij} - \min(x_{ij})}{\max(x_{ij}) - \min(x_{ij})}
-
-	•	Para critérios de minimização:
-
-r_{ij} = \frac{\max(x_{ij}) - x_{ij}}{\max(x_{ij}) - \min(x_{ij})}
-
-	2.	Cálculo das Sequências Ponderadas:
-	•	Sequência ponderada somatória ( S_i ):
-
-S_i = \sum_{j=1}^{n} w_j \cdot r_{ij}
-
-	•	Sequência ponderada multiplicativa ( P_i ):
-
-P_i = \prod_{j=1}^{n} r_{ij}^{w_j}
-
-	3.	Estratégias de Agregação:
-	•	Primeira estratégia ( k_{ia} ):
-
-k_{ia} = \frac{P_i + S_i}{\sum_{i=1}^{m} (P_i + S_i)}
-
-	•	Segunda estratégia ( k_{ib} ):
-
-k_{ib} = \frac{S_i}{\min(S_i)} + \frac{P_i}{\min(P_i)}
-
-	•	Terceira estratégia ( k_{ic} ):
-
-k_{ic} = \frac{\lambda \cdot S_i + (1 - \lambda) \cdot P_i}{\lambda \cdot \max(S_i) + (1 - \lambda) \cdot \max(P_i)}
-
-	4.	Valor Agregado Final ( K_i ):
-
-K_i = \left( k_{ia} \cdot k_{ib} \cdot k_{ic} \right)^{\frac{1}{3}} + \frac{1}{3} \left( k_{ia} + k_{ib} + k_{ic} \right)
-
-
-
+## Referências
+Gligorić, M., Gligorić, Z., Lutovac, S., Negovanović, M., & Langović, Z. (2022). **Novel Hybrid MPSI–MARA Decision-Making Model for Support System Selection in an Underground Mine**. Systems, 10(6), Artigo 6. https://doi.org/10.3390/systems10060248
+Yazdani, M., Zarate, P., Kazimieras Zavadskas, E., & Turskis, Z. (2018). **A combined compromise solution (CoCoSo) method for multi-criteria decision-making problems**. Management Decision, 57(9), 2501–2519. https://doi.org/10.1108/MD-05-2017-0458
 
 ---
