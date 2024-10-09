@@ -6,7 +6,7 @@ Este projeto implementa um novo framework de decisão multicritério híbrido ba
 O maior benefício deste framework é eliminar a subjetividade associada à atribuição de pesos manuais e fornecer uma análise baseada exclusivamente em dados. Além disso, em um único código disponível online, o acesso é facilitado e todos os cálculos são realizados de uma única vez.
 
 ### Métodos Utilizados como Referência para o Modelo:
-1.	Matriz Normalizada:
+### 1. Matriz Normalizada:
 	•	Para critérios de maximização:
 $$
 r_{ij} = \frac{x_{ij}}{\max(x_{ij})}
