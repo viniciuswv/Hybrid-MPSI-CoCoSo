@@ -42,7 +42,8 @@ $$
 r_{ij} = \frac{\max(x_{ij}) - x_{ij}}{\max(x_{ij}) - \min(x_{ij})}
 $$
 #### 2.	Cálculo das Sequências Ponderadas:
-##### Sequência ponderada somatória ($ S_i $):
+Sequência ponderada somatória ($ S_i $):
+
 $$
 S_i = \sum_{j=1}^{n} w_j \cdot r_{ij}
 $$
