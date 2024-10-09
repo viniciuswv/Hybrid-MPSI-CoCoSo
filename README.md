@@ -5,7 +5,8 @@ Modelo híbrido de análise multicritério (MCDA) em dois estágios.
 Este projeto implementa um novo framework híbrido de decisão multicritério, baseando-se nos métodos **MPSI (Gligoric et al., 2022)** e **CoCoSo (Yazdani et al., 2018)**. O objetivo é calcular, automaticamente, os pesos de cada critério de maneira similar ao apresentado no método **MPSI** e, em seguida, utilizar esses pesos para ordenar as alternativas de maneira similar ao desenvolvido no método **CoCoSo**.
 O maior benefício deste framework é eliminar a subjetividade associada à atribuição manual de pesos (ou facilitar, no caso da ausência de especialistas) e fornecer uma análise baseada exclusivamente em dados. Além disso, em um único código disponível online, o acesso é facilitado e todos os cálculos são realizados de uma única vez.
 
-### Procedimento de Cálculo para Estabelecimento dos Pesos (1º estágio)
+## Procedimento de Cálculo
+### Estabelecimento dos Pesos (1º estágio)
 #### 1. Matriz Normalizada:
 Para critérios de maximização:
 
@@ -31,7 +32,7 @@ $$
 w_j = \frac{p_j}{\sum_{j=1}^{n} p_j}
 $$
 
-### Procedimento de Cálculo para Ordenação das Alternativas (2º estágio)
+### Ordenação das Alternativas (2º estágio)
 #### 1. Matriz Normalizada:
 
 Para critérios de maximização:
