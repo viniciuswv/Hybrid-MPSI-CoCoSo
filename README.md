@@ -16,7 +16,7 @@ O maior benefício deste framework é eliminar a subjetividade associada à atri
 
 ### Passos:
 
-Abra o framework através do link do Google Colab disponível no repositório do programa. Em seguida, certifique-se de que esteja conectado à máquina virtual clicando no botão "Conectar", disponível na parte superior direita do IDE.
+Abra o framework através do link do Google Colab disponível no repositório do programa. Em seguida, certifique-se de que esteja conectado à máquina virtual clicando no botão "Conectar", disponível na parte superior direita do IDE. Uma vez conectado, execute a linha de código.
 
 1. **Upload do Arquivo**:
    - Ao ser solicitado, faça o upload de um arquivo Excel contendo a **matriz de decisão**:
