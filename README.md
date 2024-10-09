@@ -7,11 +7,14 @@ O maior benefício deste framework é eliminar a subjetividade associada à atri
 
 ### Procedimento de Cálculo para Estabelecimento dos Pesos (1º estágio)
 #### 1. Matriz Normalizada:
-##### Para critérios de maximização:
+Para critérios de maximização:
+
 $$
 r_{ij} = \frac{x_{ij}}{\max(x_{ij})}
 $$
-##### Para critérios de minimização:
+
+Para critérios de minimização:
+
 $$
 r_{ij} = \frac{\min(x_{ij})}{x_{ij}}
 $$
