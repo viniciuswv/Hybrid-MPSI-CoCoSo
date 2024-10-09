@@ -30,14 +30,19 @@ $$
 
 ### 2. Procedimento de Cálculo para Ordenação das Alternativas (2º estágio)
 #### 1. Matriz Normalizada:
-##### Para critérios de maximização:
+
+Para critérios de maximização:
+
 $$
 r_{ij} = \frac{x_{ij} - \min(x_{ij})}{\max(x_{ij}) - \min(x_{ij})}
 $$
-##### Para critérios de minimização:
+
+Para critérios de minimização:
+
 $$
 r_{ij} = \frac{\max(x_{ij}) - x_{ij}}{\max(x_{ij}) - \min(x_{ij})}
 $$
+
 #### 2.	Cálculo das Sequências Ponderadas:
 
 Sequência ponderada somatória ($S_i$):
