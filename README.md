@@ -97,24 +97,24 @@ $$
 
 ### Passos:
 1. **Upload do Arquivo**:
-   - Ao ser questionado, faça o upload de um arquivo Excel contendo a **matriz de decisão**:
+   - Ao ser solicitado, faça o upload de um arquivo Excel contendo a **matriz de decisão**:
      - Primeira coluna: Alternativas.
      - Colunas seguintes: Critérios.
      - Primeira linha: Títulos das colunas.
      - Números com casas decimais separadas com ponto (e não vírgula).
 
 2. **Definição dos Tipos de Critério**:
-   - O usuário informa se cada critério é de **maximização** ou **minimização**.
+   - Ao ser solicitado, informe se cada critério é de **maximização** ou **minimização**.
    - Exemplo: `max, min, max, ...`.
 
 3. **Definir o Valor de \( \lambda \)**:
-   - Ao ser questionado, digite um valor entre 0.1 e 1 para controlar o balanceamento das estratégias de agregação no CoCoSo.
+   - Ao ser solicitado, digite um valor entre 0.1 e 1 para controlar o balanceamento das estratégias de agregação no CoCoSo.
 
 4. **Cálculo e Ranqueamento**:
    - O algoritmo usa o MPSI para calcular os pesos e, em seguida, aplica o CoCoSo para ordenar as alternativas.
 
 5. **Visualização dos Resultados**:
-   - Ao ser questionado, escolha se deseja visualizar as alternativas em ordem **crescente** (1º, 2º, 3º, ...) ou **decrescente** (..., 3º, 2º, 1º).
+   - Ao ser solicitado, escolha se deseja visualizar as alternativas em ordem **crescente** (1º, 2º, 3º, ...) ou **decrescente** (..., 3º, 2º, 1º).
 
 6. **Resultados**:
    - O programa exibe os pesos calculados para cada critério e a lista das alternativas com o valor agregado \( K_i \).
