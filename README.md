@@ -39,7 +39,7 @@ Abra o framework através do link do Google Colab disponível no repositório do
    - Ao ser solicitado, escolha se deseja visualizar as alternativas em ordem `crescente` (1º, 2º, 3º, ...) ou `decrescente` (..., 3º, 2º, 1º).
 
 6. **Resultados**:
-   - O programa exibe os pesos calculados para cada critério e a lista das alternativas com o valor agregado \( K_i \).
+   - O programa exibe os pesos calculados para cada critério e a lista das alternativas com o valor agregado \(K_i\).
 
 
 ## Exemplo de Uso
