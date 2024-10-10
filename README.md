@@ -30,7 +30,7 @@ Abra o framework através do link do Google Colab disponível no repositório do
    - Exemplo: `max, min, max, ...`.
 
 3. **Definir o Valor de $\lambda$**:
-   - Ao ser solicitado, digite um valor entre `0.1` e `1` para controlar o balanceamento das estratégias de agregação no CoCoSo.
+   - Ao ser solicitado, digite um valor entre `0.1` e `1` para controlar o balanceamento das estratégias de agregação.
 
 4. **Cálculo e Ranqueamento**:
    - O programa automaticamente calcula os pesos e, em seguida, ordena as alternativas.
