@@ -1,5 +1,5 @@
 # Hybrid-MPSI-CoCoSo
-Modelo híbrido para análise de decisão multicritério (MCDA) em dois estágios, desenvolvido no âmbito Doutorado Profissional do Programa de Pós-graduação em Estudos Marítimos (Escola de Guerra Naval - Marinha do Brasil).
+Modelo híbrido para análise de decisão multicritério (MCDA) em dois estágios, desenvolvido no âmbito do curso de Doutorado Profissional do Programa de Pós-graduação em Estudos Marítimos (Escola de Guerra Naval - Marinha do Brasil).
 
 ## Descrição
 Este projeto implementa um novo framework híbrido de decisão multicritério, baseando-se nos métodos **Modified Preference Selection Index, MPSI (Gligorić et al., 2022)** e **Combined Compromise Solution, CoCoSo (Yazdani et al., 2018)**. O objetivo é calcular, automaticamente, os pesos de cada critério de maneira similar ao apresentado no método **MPSI** e, em seguida, utilizar esses pesos para ordenar as alternativas de maneira similar ao desenvolvido no método **CoCoSo**.
