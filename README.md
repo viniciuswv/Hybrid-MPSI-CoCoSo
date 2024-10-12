@@ -58,7 +58,7 @@ Considere um arquivo Excel com a seguinte matriz de decisão:
 5. **Resultados**: A lista será gerada conforme a escolha de visualização.
 
 
-## Funções Futuras
+## Implementações Futuras
 - Interface gráfica a partir de um arquivo executável (.exe).
 - Geração de relatórios automáticos com a memória de cálculo em PDF.
 - Geração de gráficos e comparação visual de análise de sensibilidade.
