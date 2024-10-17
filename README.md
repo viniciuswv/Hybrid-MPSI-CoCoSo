@@ -1,4 +1,4 @@
-# Hybrid-MPSI-CoCoSo
+# Hybrid-MPSI-CoCoSo: Framework híbrido para apoio à decisão multicritério
 O Hybrid MPSI-CoCoSo é um modelo híbrido para análise de decisão multicritério (MCDA) em dois estágios, desenvolvido no âmbito do curso de Doutorado Profissional do Programa de Pós-graduação em Estudos Marítimos (Escola de Guerra Naval - Marinha do Brasil).
 
 ## Descrição
@@ -180,5 +180,9 @@ $$
 Gligorić, M., Gligorić, Z., Lutovac, S., Negovanović, M., & Langović, Z. (2022). **Novel Hybrid MPSI–MARA Decision-Making Model for Support System Selection in an Underground Mine**. Systems, 10(6), Artigo 6. https://doi.org/10.3390/systems10060248
 
 Yazdani, M., Zarate, P., Kazimieras Zavadskas, E., & Turskis, Z. (2018). **A combined compromise solution (CoCoSo) method for multi-criteria decision-making problems**. Management Decision, 57(9), 2501–2519. https://doi.org/10.1108/MD-05-2017-0458
+
+
+## Como citar o Programa
+VIANNA, Vinícius; LAURO, Adriano. Hybrid-MPSI-CoCoSo: framework híbrido para apoio à decisão multicritério. 2024. Disponível em: https://github.com/viniciuswv/Hybrid-MPSI-CoCoSo. Acesso em: dia mês. ano.
 
 ---
