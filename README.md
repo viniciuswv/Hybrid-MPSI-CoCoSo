@@ -8,6 +8,7 @@ O maior benefício deste framework é eliminar a subjetividade associada à atri
 
 
 ## Pré-requisitos
+- Matriz de Decisão em arquivo Excel formato ".xslx", contendo na 1ª coluna as alternativas e, nas colunas seguintes, os critérios. A 1ª linha da matriz deverá conter os títulos, por exemplo, "Alternativas" como título da 1ª coluna e "Critério a", "Critério b", etc, para os títulos das colunas seguintes. Para valores com casas decimais, garanta que o separador seja ponto "." e não vírgula ",")
 - Biblioteca `pandas`
 - Biblioteca `numpy`
 - Biblioteca `google.colab` para execução no Google Colab
