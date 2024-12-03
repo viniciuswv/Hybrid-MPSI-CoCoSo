@@ -184,6 +184,6 @@ Yazdani, M., Zarate, P., Kazimieras Zavadskas, E., & Turskis, Z. (2018). **A com
 
 
 ## Como citar o Programa
-VIANNA, Vinícius; LAURO, Adriano. Hybrid-MPSI-CoCoSo: framework híbrido para apoio à decisão multicritério. 2024. Disponível em: https://github.com/viniciuswv/Hybrid-MPSI-CoCoSo. Acesso em: dia mês. ano.
+VIANNA, Vinicius. Hybrid-MPSI-CoCoSo: framework híbrido para apoio à decisão multicritério. 2024. Disponível em: https://github.com/viniciuswv/Hybrid-MPSI-CoCoSo. Acesso em: dia mês. ano.
 
 ---
